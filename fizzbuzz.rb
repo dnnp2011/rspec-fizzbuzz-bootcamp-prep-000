@@ -11,11 +11,11 @@ for i in 1..100 do
 end
 
 def fizzbuzz(input)
-  if input % 3 == 0 && i % 5 == 0
+  if ((input % 3 == 0) && (i % 5 == 0))
     return "FizzBuzz";
-  elsif input % 3 == 0
+  elsif (input % 3 == 0)
     return "Fizz";
-  elsif input % 5 == 0
+  elsif (input % 5 == 0)
     return "Buzz";
   else
     return nil;
